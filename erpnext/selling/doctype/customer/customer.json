@@ -12,8 +12,8 @@
  "field_order": [
   "basic_info",
   "naming_series",
-  "salutation",
   "customer_name",
+  "salutation",
   "customer_type",
   "customer_group",
   "column_break0",
@@ -184,14 +184,14 @@
   {
    "fieldname": "territory",
    "fieldtype": "Link",
+   "hidden": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Territory",
    "oldfieldname": "territory",
    "oldfieldtype": "Link",
    "options": "Territory",
-   "print_hide": 1,
-   "reqd": 1
+   "print_hide": 1
   },
   {
    "fieldname": "tax_id",
@@ -568,7 +568,7 @@
    "link_fieldname": "party"
   }
  ],
- "modified": "2022-11-08 15:52:34.462657",
+ "modified": "2023-01-11 12:09:59.720481",
  "modified_by": "Administrator",
  "module": "Selling",
  "name": "Customer",

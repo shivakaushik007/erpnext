@@ -94,6 +94,7 @@
   {
    "fieldname": "fax",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Fax",
    "options": "Phone"
   },
@@ -218,7 +219,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-13 12:29:33.674561",
+ "modified": "2023-01-16 15:48:07.648243",
  "modified_by": "Administrator",
  "module": "CRM",
  "name": "Prospect",
